@@ -18,9 +18,6 @@ jobs:
     strategy:
       matrix:
         node-version: [20.x]
-
-    env:
-      
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
